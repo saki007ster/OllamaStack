@@ -1,0 +1,65 @@
+{
+  "name": "ollamastack",
+  "version": "1.0.0",
+  "description": "A modern, production-ready boilerplate for building AI chat applications with Ollama, LangChain, Next.js, and FastAPI",
+  "scripts": {
+    "install:all": "cd frontend && npm install && cd ../backend && pip install -r requirements.txt",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && pip install -r requirements.txt",
+    "test:frontend": "cd frontend && npm test",
+    "test:backend": "cd backend && python -m pytest",
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:coverage": "npm run test:backend -- --cov=app && npm run test:frontend -- --coverage",
+    "lint:frontend": "cd frontend && npm run lint",
+    "lint:backend": "cd backend && black . && isort . && mypy .",
+    "lint": "npm run lint:backend && npm run lint:frontend",
+    "format:frontend": "cd frontend && npm run format",
+    "format:backend": "cd backend && black . && isort .",
+    "format": "npm run format:backend && npm run format:frontend",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up",
+    "docker:up:build": "docker-compose up --build",
+    "docker:up:detached": "docker-compose up -d --build",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "ollama:pull": "docker exec ollamastack-ollama-1 ollama pull llama3.2",
+    "ollama:list": "docker exec ollamastack-ollama-1 ollama list",
+    "clean": "cd frontend && rm -rf .next node_modules && cd ../backend && rm -rf __pycache__ .pytest_cache",
+    "reset": "npm run clean && npm run install:all"
+  },
+  "keywords": [
+    "ollama",
+    "langchain",
+    "langgraph",
+    "nextjs",
+    "fastapi",
+    "ai",
+    "llm",
+    "chatbot",
+    "boilerplate",
+    "template",
+    "docker",
+    "typescript",
+    "python"
+  ],
+  "author": "OllamaStack Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ollamastack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ollamastack/issues"
+  },
+  "homepage": "https://github.com/yourusername/ollamastack#readme",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0",
+    "python": ">=3.11.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
