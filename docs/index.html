@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OllamaStack - Build AI Chat Applications with Local LLMs</title>
+    <meta name="description" content="Modern, production-ready boilerplate for building AI chat applications with Ollama, LangChain, Next.js, and FastAPI. Privacy-first local LLM hosting.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#eff6ff',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 text-white min-h-screen flex items-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="text-8xl mb-8">🦙</div>
+            <h1 class="text-6xl md:text-8xl font-bold mb-6">
+                OllamaStack
+            </h1>
+            <p class="text-2xl md:text-3xl mb-8 max-w-4xl mx-auto opacity-90">
+                Build AI Chat Applications with <strong>Local LLMs</strong>
+            </p>
+            <p class="text-lg md:text-xl mb-12 max-w-3xl mx-auto opacity-80">
+                Modern, production-ready boilerplate combining Ollama, LangChain, Next.js, and FastAPI for privacy-first AI applications.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="https://github.com/yourusername/ollamastack" class="bg-white text-blue-700 px-10 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg">
+                    🚀 Get Started Now
+                </a>
+                <a href="#features" class="border-2 border-white text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-blue-700 transition-colors">
+                    ✨ Explore Features
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-5xl font-bold text-center mb-16 text-gray-900">Why Choose OllamaStack?</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="text-center p-8">
+                    <div class="text-6xl mb-6">🔒</div>
+                    <h3 class="text-2xl font-bold mb-4">Privacy First</h3>
+                    <p class="text-gray-600 text-lg">Run everything locally with Ollama. Your data never leaves your infrastructure.</p>
+                </div>
+                <div class="text-center p-8">
+                    <div class="text-6xl mb-6">⚡</div>
+                    <h3 class="text-2xl font-bold mb-4">Production Ready</h3>
+                    <p class="text-gray-600 text-lg">Complete Docker setup, CI/CD, testing, and security configurations included.</p>
+                </div>
+                <div class="text-center p-8">
+                    <div class="text-6xl mb-6">🛠️</div>
+                    <h3 class="text-2xl font-bold mb-4">Fully Customizable</h3>
+                    <p class="text-gray-600 text-lg">Modular architecture allows you to customize every component for your needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Start -->
+    <section class="py-20 bg-gray-900 text-white">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-12">Get Started in 3 Steps</h2>
+            <div class="bg-gray-800 p-8 rounded-xl text-left">
+                <div class="space-y-6">
+                    <div>
+                        <div class="text-yellow-400 font-bold text-xl mb-2">1. Clone & Setup</div>
+                        <code class="text-green-400 block bg-gray-900 p-4 rounded">
+                            git clone https://github.com/yourusername/ollamastack.git<br>
+                            cd ollamastack
+                        </code>
+                    </div>
+                    <div>
+                        <div class="text-yellow-400 font-bold text-xl mb-2">2. Start Services</div>
+                        <code class="text-green-400 block bg-gray-900 p-4 rounded">
+                            docker-compose up --build
+                        </code>
+                    </div>
+                    <div>
+                        <div class="text-yellow-400 font-bold text-xl mb-2">3. Pull Model & Chat</div>
+                        <code class="text-green-400 block bg-gray-900 p-4 rounded">
+                            docker exec ollamastack-ollama-1 ollama pull llama3.2<br>
+                            # Visit http://localhost:3000
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12 text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-4xl mb-4">🦙</div>
+            <h3 class="text-2xl font-bold mb-4">OllamaStack</h3>
+            <p class="text-gray-400 mb-8">Open source, privacy-first AI chat applications</p>
+            <div class="flex justify-center space-x-6">
+                <a href="https://github.com/yourusername/ollamastack" class="text-blue-400 hover:text-blue-300">GitHub</a>
+                <a href="#" class="text-blue-400 hover:text-blue-300">Documentation</a>
+                <a href="#" class="text-blue-400 hover:text-blue-300">Community</a>
+            </div>
+            <div class="mt-8 text-gray-500">
+                MIT Licensed • Built with ❤️ by the community
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
