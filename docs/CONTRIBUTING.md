@@ -53,7 +53,7 @@ If you're new to open source contribution:
 
 ```bash
 # Fork the repository on GitHub, then clone your fork
-git clone https://github.com/yourusername/ollamastack.git
+git clone https://github.com/saki007ster/ollamastack.git
 cd ollamastack
 
 # Add upstream remote

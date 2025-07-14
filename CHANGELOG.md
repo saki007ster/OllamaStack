@@ -137,4 +137,4 @@ This is a complete rewrite, so migration from v0.1.0 requires:
 
 ---
 
-For detailed information about each release, see the [GitHub Releases](https://github.com/yourusername/ollamastack/releases) page. 
+For detailed information about each release, see the [GitHub Releases](https://github.com/saki007ster/ollamastack/releases) page. 

@@ -2,7 +2,7 @@
 
 > **Build production-ready AI chat applications with privacy-first local LLMs**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/ollamastack?style=for-the-badge)](https://github.com/yourusername/ollamastack/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/saki007ster/ollamastack?style=for-the-badge)](https://github.com/saki007ster/ollamastack/stargazers)
 [![Docker Pulls](https://img.shields.io/docker/pulls/ollamastack/backend?style=for-the-badge)](https://hub.docker.com/r/ollamastack/backend)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
@@ -56,7 +56,7 @@
 
 ```bash
 # Get started in 30 seconds
-git clone https://github.com/yourusername/ollamastack.git
+git clone https://github.com/saki007ster/ollamastack.git
 cd ollamastack
 docker-compose up --build -d
 docker exec ollamastack-ollama-1 ollama pull llama3.2
@@ -169,7 +169,7 @@ We've created the most comprehensive documentation for any AI chat boilerplate:
 
 ### **Option 1: Docker (Recommended)**
 ```bash
-git clone https://github.com/yourusername/ollamastack.git
+git clone https://github.com/saki007ster/ollamastack.git
 cd ollamastack
 docker-compose up --build -d
 docker exec ollamastack-ollama-1 ollama pull llama3.2
@@ -272,11 +272,11 @@ kubectl apply -f k8s/
 
 <div align="center">
 
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/ollamastack?style=for-the-badge)](https://github.com/yourusername/ollamastack/issues)
-[![GitHub Discussions](https://img.shields.io/github/discussions/yourusername/ollamastack?style=for-the-badge)](https://github.com/yourusername/ollamastack/discussions)
+[![GitHub Issues](https://img.shields.io/github/issues/saki007ster/ollamastack?style=for-the-badge)](https://github.com/saki007ster/ollamastack/issues)
+[![GitHub Discussions](https://img.shields.io/github/discussions/saki007ster/ollamastack?style=for-the-badge)](https://github.com/saki007ster/ollamastack/discussions)
 [![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID?style=for-the-badge&logo=discord)](https://discord.gg/your-invite)
 
-**[💬 Join Discord](https://discord.gg/your-invite) • [🐛 Report Issues](https://github.com/yourusername/ollamastack/issues) • [💡 Feature Requests](https://github.com/yourusername/ollamastack/discussions)**
+**[💬 Join Discord](https://discord.gg/your-invite) • [🐛 Report Issues](https://github.com/saki007ster/ollamastack/issues) • [💡 Feature Requests](https://github.com/saki007ster/ollamastack/discussions)**
 
 </div>
 
@@ -397,7 +397,7 @@ npm run type-check        # TypeScript type checking
 
 ## 🌟 **Ready to Build the Future of AI Chat?**
 
-### **[⚡ Get Started Now](./docs/DEPLOYMENT.md)** • **[📖 Read the Docs](./docs/)** • **[⭐ Star on GitHub](https://github.com/yourusername/ollamastack)**
+### **[⚡ Get Started Now](./docs/DEPLOYMENT.md)** • **[📖 Read the Docs](./docs/)** • **[⭐ Star on GitHub](https://github.com/saki007ster/ollamastack)**
 
 **Built with ❤️ by developers, for developers**
 

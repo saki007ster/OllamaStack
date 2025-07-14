@@ -21,7 +21,7 @@ The fastest way to deploy OllamaStack is using Docker Compose:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ollamastack.git
+git clone https://github.com/saki007ster/ollamastack.git
 cd ollamastack
 
 # Copy environment template

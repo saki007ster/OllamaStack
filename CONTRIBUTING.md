@@ -17,7 +17,7 @@ Before you begin, ensure you have the following installed:
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/yourusername/ollamastack.git
+   git clone https://github.com/saki007ster/ollamastack.git
    cd ollamastack
    ```
 3. **Install dependencies**:

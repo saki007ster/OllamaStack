@@ -48,12 +48,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/ollamastack.git"
+    "url": "https://github.com/saki007ster/ollamastack.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/ollamastack/issues"
+    "url": "https://github.com/saki007ster/ollamastack/issues"
   },
-  "homepage": "https://github.com/yourusername/ollamastack#readme",
+  "homepage": "https://github.com/saki007ster/ollamastack#readme",
   "engines": {
     "node": ">=20.0.0",
     "npm": ">=10.0.0",
